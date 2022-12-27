@@ -16,7 +16,7 @@ app.get('/animals', (req, res) => {
 
 app.get('/repeat/:repeat', (req, res) => {
     res.send(`Success!  ${req.params.repeat} was sent as a param!`)
-})
+}) 
 
 app.get('/query-test', (req, res) => {
     const { query = {} } = req;
