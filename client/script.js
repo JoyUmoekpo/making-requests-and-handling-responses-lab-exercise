@@ -97,7 +97,7 @@ document.getElementById('animals-button').addEventListener('click', ohMy)
 */
 
 const repeatMyParam = () => {
-    return axios.get('http://localhost:3000/repeat/I-Love-Coding')
+    return axios.get('http://localhost:3000/repeat/Vulpix')
     .then(res => res.data)
 }
 
@@ -127,5 +127,5 @@ repeatEl.style.display = 'block';
 
 // CODE HERE
 
-axios.get('http://localhost:3000/repeat?myquery=Galarian-Vulpix')
+axios.get('http://localhost:3000/repeat?myquery=Alolan-Vulpix')
 .then(({ data }) => console.log(data))
